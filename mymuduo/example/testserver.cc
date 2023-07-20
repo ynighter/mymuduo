@@ -61,7 +61,7 @@ private:
 int main()
 {
     EventLoop loop;
-    InetAddress addr(8000);
+    InetAddress addr(6000);
     EchoServer server(&loop, addr, "EchoServer-01"); // Acceptor non-blocking listenfd  create bind 
     server.start(); // listen  loopthread  listenfd => acceptChannel => mainLoop =>
     loop.loop(); // 启动mainLoop的底层Poller

@@ -1,4 +1,4 @@
-file(REMOVE_RECURSE
+FILE(REMOVE_RECURSE
   "CMakeFiles/mymuduo.dir/Acceptor.o"
   "CMakeFiles/mymuduo.dir/Buffer.o"
   "CMakeFiles/mymuduo.dir/Channel.o"
@@ -21,6 +21,6 @@ file(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang CXX)
-  include(CMakeFiles/mymuduo.dir/cmake_clean_${lang}.cmake OPTIONAL)
-endforeach()
+FOREACH(lang CXX)
+  INCLUDE(CMakeFiles/mymuduo.dir/cmake_clean_${lang}.cmake OPTIONAL)
+ENDFOREACH(lang)
